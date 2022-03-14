@@ -1,0 +1,334 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.nav{
+	display: flex;
+	margin-top: 5px;
+}
+.img{
+	flex-basis: 20%;
+
+}
+.menu{
+	flex-basis: 60%;
+
+    padding-top: 21px;
+
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.style{
+	position: relative;
+}
+.style ::before{
+	content: '';
+	position: absolute;
+	width: 0 ;
+	height: 1px;
+	bottom: 0;
+	background: #ff6162 ;
+	
+}
+.style:hover ::before{
+	width: 100%;
+	transition: 0.6s;
+
+}
+
+.style::after{
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 1px;
+	top: 0;
+	left: 0;
+	background: #ff6162 ;
+}
+
+.style:hover::after{
+	width: 100%;
+	transition: 0.6s;
+
+}
+
+
+.btn{
+	flex-basis: 20%;
+}
+.menu ul li{
+	display: inline-block;
+	    margin-right: 10px;
+	    font-family: 'Open Sans', sans-serif;
+
+}
+a{
+	text-decoration: none;
+
+}
+
+.media{ 
+	position: fixed;
+
+}
+.media-icon{
+
+
+}
+.media-icon ul li{
+	list-style: none;
+    height: 80px;
+    background: black ;
+    width: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+
+
+}
+.media-icon ul li a i{
+	font-size: 20px;
+	color: tomato;
+
+}
+.ic-1{
+	position: relative;
+
+}
+.ic-1 a i::before{
+	
+
+}
+
+.ic-1:hover::before{
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn{
+    padding: 10px ;
+
+}
+.btn button{
+	   padding: 10px 10px;
+	   font-family: 'Open Sans', sans-serif;
+	   background-color: #ff6162;
+	   font-size: 15px;
+	   border: none;
+	   border-radius: 5px;
+	   color: white;
+}
+.btn button a{
+	color: white;
+
+}
+
+
+
+.two-type{
+	display: flex;
+	height: 100vh;
+	align-items: center;
+}
+.text-type{
+	flex-basis: 50%;
+
+}
+.one-text h1{
+ font-family: 'Open Sans', sans-serif;
+ padding-bottom: 10px;
+
+}
+.two-text span{
+	 font-family: 'Open Sans', sans-serif;
+	 color: grey;
+}
+
+.img-type
+{
+flex-basis: 50%;
+
+}
+.arrow{
+	   padding-top: 10px;
+
+}
+.arrow a i{
+	height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: grey;
+    border: 2px solid;
+}
+
+.text-catagory{
+
+	text-align: center;
+	 padding-top: 50px;
+}
+
+.text-catagory-1 h1{
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 10px;
+
+}
+
+.text-catagory-2 span{
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+   
+}
+
+.img-catagory{
+	display: flex;
+	padding-top: 20px;
+}
+.projects{
+    text-align: center;
+    flex-grow: 1;
+    margin: 10px;
+    
+}
+.projects img:hover
+{
+	  
+	box-shadow: 6px 7px 6px 1px rgb(0 0 0 / 20%);
+
+}
+
+.projects h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+.features-seation-text{
+	text-align: center;
+	padding-top: 132px;
+    height: 20vh;
+} 
+.features-seation-text h1{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.features-seation-text span{
+font-family: 'Open Sans', sans-serif;
+color: grey;
+}
+
+.box-type{
+	display: flex;
+}
+.boxer{
+	background-color: #f5f5f5;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.boxer-icon a i{
+      margin-top: 35px;
+    margin-top: 35px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px; 
+    border-radius: 50%;
+    color: red;
+    background: white;
+}
+.boxer-icon a i:hover{
+	transform: scale(1.5);
+    background: #ff6162;
+    color: white;
+    transition: 0.5s;
+    transform: rotate(360deg);
+
+
+}
+.boxer h1{
+font-family: 'Open Sans', sans-serif;
+}
+.boxer span{
+	font-family: 'Open Sans', sans-serif;
+	color: grey;
+}
+
+
+
+
+.footer{
+	background: #292640;
+	height: 350px;
+	text-align: center;
+	margin-top: 88px;
+
+}
+.footer-Btn{
+padding: 10px ;
+
+}
+.footer-text{
+	padding-top: 10px;
+}
+
+.footer-Btn button{
+	   padding: 10px 10px;
+	   font-family: 'Open Sans', sans-serif;
+	   background-color: #ff6162;
+	   font-size: 15px;
+	   border: none;
+	   border-radius: 5px;
+	   color: white;
+}
+.footer-icon ul li{
+	display: inline-block;
+	margin-top: 10px;
+}
+.footer-icon ul li a i{
+	color: white;
+	margin-right: 10px;
+}
+.footer-text h1{
+	    font-size: 45px;
+	    font-family: 'Open Sans', sans-serif;
+        color: white;
+
+}
+.footer-icon ul li a i{
+	display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 50px;
+    background: white;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #ff6162;
+
+
+}
+.footer-icon ul li a i:hover{
+transform: scale(1.3);
+transform: rotate(360deg);
+transition: 0.5s;
+}
+
